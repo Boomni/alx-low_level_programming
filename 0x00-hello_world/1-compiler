@@ -1,2 +1,6 @@
 #!/bin/bash
-gcc -E $CFILE
+<<<<<<< HEAD
+gcc -E $CFILE -o main.o
+=======
+gcc -c $CFILE -o main.o
+>>>>>>> e2996e0 (updated)
