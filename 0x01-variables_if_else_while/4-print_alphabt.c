@@ -15,7 +15,7 @@ int main(void)
 
 	for (skip2 = 'a'; skip2 <= 'z'; skip2++)
 	{
-		if (skip2 == 'e' && skip2 == 'q')
+		if (skip2 != 'e' && skip2 != 'q')
 			putchar(skip2);
 	}
 	putchar('\n');
