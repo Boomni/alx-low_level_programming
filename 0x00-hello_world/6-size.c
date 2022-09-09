@@ -1,7 +1,9 @@
 #include < stdio.h >
+
 /*
 *main prints size in memory
 */
+
 int main(void)
 {
 puts("Size of a char: %zu byte(s)\n", sizeof(char));
