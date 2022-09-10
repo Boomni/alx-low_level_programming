@@ -1,28 +1,32 @@
 
 /* File: 8.c */
 /* Auth: Jonathan Boomni */
-
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - Start Point
- * Description: Prints all single digit numbers of base 16
- * Starting from 0, followed by a new line.
- * Function allowed: only putchar
- * Return: Always 0.
+ * main - print single digit numbers starting from 0
+ *
+ * Return: returns zero at the end
  */
 int main(void)
 {
-	int x;
+	int a, b;
 
-	for (x = 0; x < 10; x++)
+	for (a = 0; a < 10; a++)
 	{
-		putchar(x + '0');
-		if (x !=  9)
+		for (b = 1; b < 10; b++)
 		{
-			putchar(',');
-			putchar(' ');
+			if (a < b)
+			{
+				putchar(a + '0');
+				putchar(b + '0');
+				if (a != 8)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
 	}
 	putchar('\n');
