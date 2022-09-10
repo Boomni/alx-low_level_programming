@@ -11,42 +11,28 @@
  */
 int main(void)
 {
-	int a, b, c, d;
+	int i, j;
 
-	for (a = 0; a < 10; a++)
+	for (i = 0; i < 100; i++)
 	{
-		for (b = 0; b < 10; b++)
+		for (j = 0; j < 100; j++)
 		{
-		if (a < b)
-		{
-			putchar(a + '0');
-			putchar(b + '0');
-			if (a != 8)
+			if (i < j)
 			{
-				putchar(' ');
-			}
-				for (c = 0; c < 10; c++)
+				putchar(i / 10 + 48);
+				putchar(i % 10 + 48);
+				putchar(32);
+				putchar(j / 10 + 48);
+				putchar(j % 10 + 48);
+				if (i < 98)
 				{
-					for (d = 0; d < 10; d++)
-					{
-					if (c < d)
-					{
-						putchar(c + '0');
-						putchar(d + '0');
-						if (a != 8)
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-					}
-				
+					putchar(44);
+					putchar(32);
 				}
-		}
+			}
 		}
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
-
 
