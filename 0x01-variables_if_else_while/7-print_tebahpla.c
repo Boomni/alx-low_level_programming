@@ -1,9 +1,9 @@
-/* File: 7-print_numberz.c */
+
+/* File: 7-print_comb3.c */
 /* Auth: Jonathan Boomni */
 
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
  * main - Start Point
  * Description: Prints all single digit numbers of base 10
@@ -15,10 +15,11 @@ int main(void)
 {
 	char x;
 
-	for (x = 'a'; x <= 'z'; x--)
+	for (x = 'z'; x <= 'a'; x--)
 	{
 		putchar(x);
 	}
 	putchar('\n');
 	return (0);
 }
+
