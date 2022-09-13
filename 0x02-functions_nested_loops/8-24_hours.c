@@ -1,3 +1,4 @@
+/* Author: Jonathan Boomni */
 #include "main.h"
 /**
  * jack_bauer - Entry point after main is read
