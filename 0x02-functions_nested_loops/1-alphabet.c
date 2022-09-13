@@ -1,22 +1,21 @@
 /* Author: Jonathan Boomni */
 
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
 
 /**
- * print_alphabet - check the code
- * decription: Prints lowercase alphabets followed by newline
- * Return: Always 0.
+ * print_alphabet - Make the alphabet
+ *
+ * Return: void
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char letters;
+	char x;
 
-	for (letters = 'a'; letters <= 'z'; letters++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
-		putchar(letters);
+		_putchar(x);
 	}
-	putchar('\n');
-	return (0);
+
+	_putchar('\n');
 }
 
