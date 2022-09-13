@@ -1,5 +1,7 @@
 /* Author: Jonathan Boomni */
+
 #include "main.h"
+
 /**
  * jack_bauer - Entry point after main is read
  * Description: Print every minute of the day of Jack Bauer
@@ -7,7 +9,11 @@
  */
 void jack_bauer(void)
 {
-	int a = 0, b = 0, c = 0, d = 0, x = 0;
+	int a = 0;
+	int b = 0;
+	int c = 0;
+	int d = 0;
+	int x = 0;
 
 	while (x < 1440)
 	{
@@ -17,14 +23,13 @@ void jack_bauer(void)
 		_putchar(c + '0');
 		_putchar(d + '0');
 		_putchar('\n');
-
 		d++;
 		if (d > 9)
 		{
 			d = 0;
 			c++;
 		}
-		if (c > 5)
+		if (c > 6)
 		{
 			c = 0;
 			b++;
@@ -37,3 +42,4 @@ void jack_bauer(void)
 		x++;
 	}
 }
+
