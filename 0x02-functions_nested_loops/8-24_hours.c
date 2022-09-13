@@ -10,10 +10,6 @@ void jack_bauer(void)
 	/* Initialize variables */
 	int a = 0, b = 0, c = 0, d = 0, x = 0;
 
-	/* We have 24 hours in a day */
-	/* And 24x60mins = 1440mins/
-	/* Since every minute is printed/
-	/* Initialize x < 1440 */
 	while (x < 1440)
 	{
 		_putchar(a + '0');
