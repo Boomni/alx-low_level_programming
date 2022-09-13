@@ -10,10 +10,8 @@
  */
 int print_sign(int n)
 {
-	int a;
-
-	if (a > 0)
-		print("+");
+	if (n > 0)
+		printf("+");
 			return (1);
 	else if (n = 0)
 		printf("0");
