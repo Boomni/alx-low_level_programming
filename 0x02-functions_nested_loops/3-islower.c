@@ -5,7 +5,7 @@
 /**
  * _islower - Entry point after going through main
  * Description: Make the alphabet 10 times
- * Return: (int c)
+ * Return:(0) or (1)
  */
 int _islower(int c)
 {
