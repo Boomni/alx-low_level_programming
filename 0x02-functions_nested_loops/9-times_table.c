@@ -9,16 +9,16 @@
  */
 void times_table(void)
 {
-	int a , x;
-	x = 0;
+	int a, b;
+	a = 0;
 
-	while (x <= 109)
+	while (a <= 109)
 	{
-		for (a = 0; a <= 10; a++)
+		for (b = 0; b <= 10; b++)
 		{
-			_putchar(a * x);
+			printf("%d", a * b);
 		}
-		x++;
+		row++;
 	}
 }
 
