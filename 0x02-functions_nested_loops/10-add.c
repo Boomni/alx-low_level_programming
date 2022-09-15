@@ -9,7 +9,7 @@
  * Description: Adds two given integers
  * Return: 0
  */
-int add(int a int b)
+int add(int a, int b)
 {
 	return(a + b);
 }
