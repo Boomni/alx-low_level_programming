@@ -8,7 +8,7 @@
  * and does not print 2 and 4
  * Return: 0
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	char x;
 
