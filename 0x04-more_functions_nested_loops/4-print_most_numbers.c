@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * print_numbers - Called from main
+ * print_most_numbers - Called from main
  * Description: prints numbers 0 to 9 followed by a newline
  * and does not print 2 and 4
  * Return: 0
