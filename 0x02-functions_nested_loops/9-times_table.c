@@ -9,16 +9,17 @@
  */
 void times_table(void)
 {
-	int a, b;
+	int a, b, product;
 	a = 0;
 
 	while (a <= 109)
 	{
+		product = a * b;
+
 		for (b = 0; b <= 10; b++)
 		{
-			printf("%d", a * b);
+			printf("%d", product);
 		}
-		row++;
+		a++;
 	}
 }
-
