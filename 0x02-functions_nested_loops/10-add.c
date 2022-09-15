@@ -11,5 +11,5 @@
  */
 int add(int a int b)
 {
-	printf("%x", a + b);
+	return(a + b);
 }
