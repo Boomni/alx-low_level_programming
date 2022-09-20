@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 void puts2(char *str);
 
@@ -27,6 +28,6 @@ void puts2(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 		if (i % 2 == 0)
-			_putchar(str[i]);
-	_putchar('\n');
+			putchar(str[i]);
+	putchar('\n');
 }
