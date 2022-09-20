@@ -11,11 +11,6 @@
  */
 void rev_string(char *s)
 {
-	int x;
-	int len = strlen(s);
-
-	x >= len - 1;
-	x =0;
-	x--;
+	strrev(s);
 }
 
