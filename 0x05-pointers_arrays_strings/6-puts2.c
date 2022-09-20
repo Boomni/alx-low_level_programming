@@ -1,21 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 
-void puts2(char *str);
-
-/**
- * main - check the code
- * Author:Jonathan Boomni
- * Return: Always 0.
- */
-int main(void)
-{
-    char *str;
-
-    str = "0123456789";
-    puts2(str);
-    return (0);
-}
 /**
  * puts2 - Entry point after main
  * Description: Prints every other character of a string
