@@ -1,8 +1,8 @@
-**Welcome to Low-Level Programming!**
+# **Welcome to Low-Level Programming!**
 This repository holds my assignment solutions from the low-level programming 
 track at ALX Africa  Software Engineering School.
 
-**Whats in here?**
+# **Whats in here?**
 I am learning about data
 structures, algorithms, and other low-level programming concepts while
 working in the C language. 
