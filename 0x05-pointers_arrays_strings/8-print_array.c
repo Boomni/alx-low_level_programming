@@ -3,7 +3,8 @@
 
 /**
  * print_array - Entry point after main
- * Description: Prints n elements of an array of integers, followed by a new line.
+ * Description: Prints n elements of an array of integers
+ * followed by a new line.
  * Author: Jonathan Boomni
  * @a: integer array passed
  * @n: number of elements in array to be printed
