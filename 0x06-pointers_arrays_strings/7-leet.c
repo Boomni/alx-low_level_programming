@@ -19,7 +19,7 @@ char *leet(char *str)
 			if (str[i] == a[j])
 				str[i] = b[j];
 		}
-			
+		
 	}
 	return (str);
 }
