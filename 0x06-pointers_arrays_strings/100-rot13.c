@@ -4,7 +4,7 @@
  * rot13 - called from main
  * @str: string passed
  * Description: Encodes a string into ROT13
-i * Return: str
+ * Return: str
  */
 char *rot13(char *str)
 {
@@ -17,7 +17,10 @@ char *rot13(char *str)
 		for (j = 0; j < 52; j++)
 		{
 			if (str[i] == a[j])
+			{
 				str[i] = b[j];
+				break;
+			}
 		}
 	}
 	return (str);
