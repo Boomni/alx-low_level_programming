@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <string.h>
+char *leet(char *);
 #include <ctype.h>
 #include <stdlib.h>
 
