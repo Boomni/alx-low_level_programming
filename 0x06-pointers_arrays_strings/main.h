@@ -17,4 +17,4 @@ char *rot13(char *);
 
 
 
-#endif
+#endif /* MAIN_H */
