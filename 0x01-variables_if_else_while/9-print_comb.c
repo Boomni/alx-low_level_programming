@@ -7,21 +7,20 @@
 
 /**
  * main - Start Point
- * Description: Prints all single digit numbers of base 16
+ * Description: Prints all combination of single digits
  * Starting from 0, followed by a new line.
  * Function allowed: only putchar
  * Return: Always 0.
  */
 int main(void)
 {
-	int x;
+	int num;
 
-	for (x = 0; x < 10; x++)
+	for (num = 0; num < 10; num++)
 	{
-		/* putchar(x + '0'); */
-		if (x != '\0')
+		putchar(num + '0');
+		if (num != '\0')
 		{
-			putchar(x + '0');
 			putchar(',');
 			putchar(' ');
 		}
