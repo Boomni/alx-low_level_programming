@@ -1,6 +1,7 @@
 # Day 1 learning C
 
-I worked some tasks and created the following files:
+I worked on some tasks and created the following files:
+
 1.  * [0-preprocessor](./0-preprocessor): Bash script that runs a C file saved in the
   variable `$CFILE` through the preprocessor and saves the result in the file `c`.
 2.  * [1-compiler](./1-compiler): Bash script that compiles a C file saved in the
@@ -30,6 +31,7 @@ I worked some tasks and created the following files:
 
 ## These are a description to the gcc options I put in my code
 |Options|Description|
+|:---|:---|
 |-c|Stops the compilation process before linking stage|
 |-E|Terminate compilation after processing|
 |-o filename|Writes output to a specified file|
