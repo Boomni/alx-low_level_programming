@@ -1,4 +1,3 @@
-
 /* File: 8.c */
 /* Auth: Jonathan Boomni */
 
@@ -14,13 +13,13 @@
  */
 int main(void)
 {
-	int x;
-	char y;
+	int num;
+	char letters;
 
-	for (x = 0; x < 10; x++)
-		putchar(x + '0');
-	for (y = 'a'; y < 'g'; y++)
-		putchar(y);
+	for (num = 0; num < 10; num++)
+		putchar(num + '0');
+	for (letters = 'a'; letters < 'g'; letters++)
+		putchar(letters);
 	putchar('\n');
 	return (0);
 }
