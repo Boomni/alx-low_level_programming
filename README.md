@@ -14,6 +14,7 @@ The following contains hands-on projects as listed below:
 * [0x03. C - debugging](./0x03-debugging)
 * [0x04. C - More functions, more nested loops](./0x04-more_functions_nested_loops)
 * [0x05. C - Pointers, arrays and strings](./0x05-pointers_arrays_strings)
+* [0x06. C - Pointers, arrays and strings](./0x06-pointers_arrays_strings)
 
 
 - more projects are coming soon!!
