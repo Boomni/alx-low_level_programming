@@ -1,4 +1,3 @@
-
 /* File: 7-print_comb3.c */
 /* Auth: Jonathan Boomni */
 
@@ -6,18 +5,18 @@
 #include <stdlib.h>
 /**
  * main - Start Point
- * Description: Prints all single digit numbers of base 10
+ * Description: Prints all lowercase alphabet in reverse.
  * Starting from 0, followed by a new line.
  * Function allowed: only putchar
  * Return: Always 0.
  */
 int main(void)
 {
-	char x;
+	char alphabets;
 
-	for (x = 'z'; x >= 'a'; x--)
+	for (alphabets = 'z'; alphabets >= 'a'; alphabets--)
 	{
-		putchar(x);
+		putchar(alphabets);
 	}
 	putchar('\n');
 	return (0);
