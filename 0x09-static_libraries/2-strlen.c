@@ -5,6 +5,7 @@
 /**
  * _strlen - Entry point after main
  * Description: Prints length of a string
+ * @s: string passed
  * Return: String lenght
  */
 int _strlen(char *s)

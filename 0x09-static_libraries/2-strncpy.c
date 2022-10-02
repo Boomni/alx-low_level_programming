@@ -4,6 +4,9 @@
 
 /**
  * _strncpy - concatenates a string
+ * @dest: designation
+ * @src: character source
+ * @n: int passed
  * Return: designation
  */
 char *_strncpy(char *dest, char *src, int n)

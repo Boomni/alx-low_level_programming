@@ -4,6 +4,8 @@
 
 /**
  * _strchr - called form main
+ * @s: pointer to c
+ * @c: char
  * Return: string
  */
 char *_strchr(char *s, char c)
