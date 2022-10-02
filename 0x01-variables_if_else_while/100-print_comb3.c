@@ -12,12 +12,13 @@
 int main(void)
 {
 	int a, b;
+	/* a for first number, b for second number */
 
 	for (a = 0; a < 10; a++)
 	{
 		for (b = 1; b < 10; b++)
 		{
-			if (a < b)
+			if (a < b) /* if a is smaller ie. a in 12 and 21 */
 			{
 				putchar(a + '0');
 				putchar(b + '0');
