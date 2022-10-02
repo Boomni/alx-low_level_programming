@@ -27,3 +27,11 @@ I worked some tasks and created the following files:
   useful" - Dora Korpar, 2015-10-19`, followed by a new line, to the standard error,
   without using any functions listed in the NAME sesction of the man(3) `printf` or man(3)
   `puts`.
+
+## These are a description to the gcc options I put in my code
+|Options|Description|
+|-c|Stops the compilation process before linking stage|
+|-E|Terminate compilation after processing|
+|-o filename|Writes output to a specified file|
+|-s|Stops compilation process after generating assembly code|
+
