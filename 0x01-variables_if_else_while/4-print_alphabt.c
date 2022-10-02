@@ -11,12 +11,12 @@
  */
 int main(void)
 {
-	char skip2;
+	char alphabets;
 
-	for (skip2 = 'a'; skip2 <= 'z'; skip2++)
+	for (alphabets = 'a'; alphabets <= 'z'; alphabets++)
 	{
-		if (skip2 != 'e' && skip2 != 'q')
-			putchar(skip2);
+		if (alphabets != 'e' && alphabets != 'q')
+			putchar(alphabets);
 	}
 	putchar('\n');
 	return (0);
