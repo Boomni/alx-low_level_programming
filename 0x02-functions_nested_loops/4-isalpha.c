@@ -10,8 +10,8 @@
  */
 int _isalpha(int c)
 {
-	int a;
-	int b;
+	char a;
+	char b;
 
 
 	for ((a = 'a'; a <= 'z'; a++) || (b = 'A'; b <= 'Z'; b++))
