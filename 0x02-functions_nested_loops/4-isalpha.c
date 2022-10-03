@@ -14,9 +14,9 @@ int _isalpha(int c)
 	int b;
 
 
-	for (a = 'a'; a <= 'z'; a++) || (b = 'A'; b <= 'Z'; b++)
+	for ((a = 'a'; a <= 'z'; a++) || (b = 'A'; b <= 'Z'; b++))
 	{
-		if (b == c) || (a == c)
+		if ((b == c) || (a == c))
 			return (1);
 	}
 	return (0);
