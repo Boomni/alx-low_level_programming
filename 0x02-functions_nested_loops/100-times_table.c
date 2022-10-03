@@ -1,45 +1,48 @@
-/* Author: Jonathan Boomni */
-
 #include "main.h"
 
 /**
- * jack_bauer - Entry point after main is read
- * Description: Print every minute of the day of Jack Bauer
- * Return: Start from 00:00 to 23:59
+ * print_times_table - prints the n times table, starting with 0
+ * @n: number of the times table
  */
-void jack_bauer(void)
+void print_times_table(int n)
 {
-	int a = 0;
-	int b = 0;
-	int c = 0;
-	int d = 0;
-	int x = 0;
+	int i, j, k;
 
-	while (x < 1440)
+	if (n >= 0 && n <= 15)
 	{
-		_putchar(a + '0');
-		_putchar(b + '0');
-		_putchar(':');
-		_putchar(c + '0');
-		_putchar(d + '0');
-		_putchar('\n');
-		d++;
-		if (d > 9)
+		for (i = 0; i <= n; i++)
 		{
-			d = 0;
-			c++;
+			for (j = 0; j <= n; j++)
+			{
+				k = j * i;
+				if (j == 0)
+				{
+					_putchar(k + '0');
+				} else if (k < 10 && j != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(k + '0');
+				} else if (k >= 10 && k < 100)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar((k / 10) + '0');
+					_putchar((k % 10) + '0');
+				} else if (k >= 100)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar((k / 100) + '0');
+					_putchar(((k / 10) % 10) + '0');
+					_putchar((k % 10) + '0');
+				}
+			}
+			_putchar('\n');
 		}
-		if (c > 5)
-		{
-			c = 0;
-			b++;
-		}
-		if (b > 9)
-		{
-			b = 0;
-			a++;
-		}
-		x++;
 	}
 }
 
