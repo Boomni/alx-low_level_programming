@@ -17,13 +17,9 @@ int main(void)
 		n1 = n2;
 		n2 = n3;
 		if (i == 49)
-		{
-			printf("%li\n, ", n3);
-		}
+			printf("%li\n", n3);
 		else
-		{
 			printf("%li, ", n3);
-		}
 	}
 	return (0);
 }
