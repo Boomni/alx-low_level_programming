@@ -9,6 +9,7 @@
 int main(void)
 {
 	int i;
+	int n = 50;
 	unsigned long n1 = 0, n2 = 1, n3;
 
 	for (i = 0; i < 50; i++)
@@ -18,11 +19,10 @@ int main(void)
 
 		n1 = n2;
 		n2 = n3;
-
-		if (n3 == 49)
-			printf("\n");
-		else
+		if (n != 48)
 			printf(", ");
+		else
+			printf("\n");
 	}
 	return (0);
 }
