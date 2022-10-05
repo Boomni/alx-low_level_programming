@@ -5,24 +5,12 @@
 /**
  * _isalpha - Entry point after going through main
  * @c: the integer value it receives
- * Description: Make the alphabet 10 times
+ * Description: checks for alphabetetic character
  * Return: 1 if true, 0 if false
  */
 int _isalpha(int c)
 {
-	int a;
-	int b;
-
-
-	for (a = 'a'; a <= 'z'; a++)
-	{
-		if (a == c)
-			return (1);
-	}
-	for (b = 'A'; b <= 'Z'; b++)
-	{
-		if (b == c)
-			return (1);
-	}
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+		return (1);
 	return (0);
 }
