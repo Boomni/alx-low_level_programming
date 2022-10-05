@@ -8,20 +8,22 @@
  */
 int main(void)
 {
-	int n = 50;
 	int i;
-	int n1 = 0;
-	int n2 = 1;
-	int n3;
+	unsigned long n1 = 0, n2 = 1, n3;
 
-	for (i = 1; i <= n; i++)
+	for (i = 0; i < 50; i++)
 	{
 		n3 = n1 + n2;
+		printf("%li", n3);
+
 		n1 = n2;
 		n2 = n3;
-		printf("%i,", n3);
+
+		if (n3 == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
-	printf("\n");
 	return (0);
 }
 
