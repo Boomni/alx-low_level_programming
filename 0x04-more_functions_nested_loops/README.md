@@ -76,7 +76,7 @@ _**7. I feel like I am diagonally parked in a parallel universe**_
    * You are allowed to use the standard library
     
 **_10. Triangles_**
-* [](): A function that prints a triangle, followed by a new line.
+* [10-print_triangle.c](./10-print_triangle.c): A function that prints a triangle, followed by a new line.
    * Prototype: void print_triangle(int size);
    * You can only use _putchar function to print
    * Where size is the size of the triangle
@@ -85,12 +85,12 @@ _**7. I feel like I am diagonally parked in a parallel universe**_
 
 _**11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic**_
    * The prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081.
-* [](): A program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
+* [100-prime_factor.c](./100-primr_factor.c): A program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
    * You are allowed to use the standard library
    * Your program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
 
 **_12. Numbers have life; they're not just symbols on paper_**
-* [](): A function that prints an integer.
+* [101-print_numbers.c](./10-print_numbers.c): A function that prints an integer.
    * Prototype: void print_number(int n);
    * You can only use _putchar function to print
    * You are not allowed to use long
