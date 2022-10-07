@@ -62,32 +62,27 @@ _**6. There is no such thing as absolute value in this world. You can only estim
     * Prototype: `int _abs(int);`
     * FYI: The standard library provides a similar function: `abs`. Run `man abs` to learn more.
       * Solution file: [6-abs.c](./6-abs.c)
-      * Test file: [6-main.c](./6-main.c)
 
 _**7. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important**_
   * Write a function that prints the last digit of a number.
     * Prototype: `int print_last_digit(int);`
     * Returns the value of the last digit
       * Solution file: [7-print_last_digit.c](./7-print_last_digit.c)
-      * Test file: [7-main.c](./7-main.c)
     
 _**8. I'm federal agent Jack Bauer, and today is the longest day of my life**_
   * Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
     * Prototype: `void jack_bauer(void);
       * Solution file: [8-24_hours.c](./8-24_hours.c)
-      * Test file: [8-main.c](./8-main.c)
 
 _**9. Learn your times table**_
  * Write a function that prints the 9 times table, starting with 0.
     * Prototype: `void times_table(void);`
       * Solution file: [9-times_table.c](./9-times_table.c)
-      * Test file: [9-main.c](./9-main.c)
 
 _**10. a + b**_
  * Write a function that adds two integers and returns the result.
     * Prototype: int add(int, int);
       * Solution file: [10-add.c](./10-add.c)
-      * Test file: [10-main.c](./10-main.c)
 
 _**11. 98 Battery Street, the OG**_
  * Write a function that prints all natural numbers from `n` to `98`, followed by a new line.
@@ -98,14 +93,12 @@ _**11. 98 Battery Street, the OG**_
    * The last printed number should be `98`
    * You are allowed to use the standard library
       * Solution file: [11-print_to_98.c](./11-print_to_98.c)
-      * Test file: [11-main.c](./11-main.c)
 
 _**12. The World looks like a multiplication-table, or a mathematical equation, which, turn it how you will, balances itself**_
  * Write a function that prints the `n` times table, starting with `0`.
    * Prototype: `void print_times_table(int n);`
    * If `n` is greater than `15` or less than `0` the function should not print anything
       * Solution file: [100-times_table.c](./100-times_table.c)
-      * Test file: [100-main.c](./100-main.c)
     
 _**13. Nature made the natural numbers; All else is the work of women**_
  * Write a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
@@ -132,3 +125,6 @@ _**16. In computer class, the first assignment was to write a program to print t
    * You are not allowed to use long long, malloc, pointers, arrays/tables, or structures
    * You are not allowed to hard code any Fibonacci number (except for 1 and 2)
       * Solution file: [104-fibonacci.c](./104-fibonacci.c)
+***
+* File: [main.c](./main.c) contains all my function prototypes
+* File: [_putchar.c](./_putchar.c) write to standard output
