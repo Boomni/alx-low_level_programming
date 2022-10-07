@@ -90,7 +90,7 @@ _**11. The problem of distinguishing prime numbers from composite numbers and of
    * Your program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
 
 **_12. Numbers have life; they're not just symbols on paper_**
-* [101-print_numbers.c](./101-print_numbers.c): A function that prints an integer.
+* [101-print_number.c](./101-print_number.c): A function that prints an integer.
    * Prototype: void print_number(int n);
    * You can only use _putchar function to print
    * You are not allowed to use long
