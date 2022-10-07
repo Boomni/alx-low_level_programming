@@ -126,5 +126,5 @@ _**16. In computer class, the first assignment was to write a program to print t
    * You are not allowed to hard code any Fibonacci number (except for 1 and 2)
       * Solution file: [104-fibonacci.c](./104-fibonacci.c)
 ***
-* File: [main.c](./main.c) contains all my function prototypes
+* File: [main.h](./main.c) contains all my function prototypes
 * File: [_putchar.c](./_putchar.c) write to standard output
