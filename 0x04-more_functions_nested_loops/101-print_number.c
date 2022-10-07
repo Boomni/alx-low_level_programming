@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdout.h>
 
 /**
 * print_number - print integer
