@@ -8,5 +8,5 @@
  */
 void print_number(int n)
 {
-
+	putchar(n + '0');
 }
