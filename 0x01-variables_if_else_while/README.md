@@ -4,18 +4,18 @@ In this project. I learned about the following:
 * Arithmetic operators and how to use them
 * Logical operators (sometimes called boolean operators) and how to use them
 * Relational operators and how to use them
-* Values considered TRUE and FALSE in C
+* Values considered `TRUE` and `FALSE` in C
 * Boolean operators and how to use them
-* How to use the if, if ... else statements
+* How to use the `if`, `if ... else` statements
 * How to use comments
 * How to declare variables of types char, int, unsigned int
 * How to assign values to variables
-* How to print the values of variables of type char, int, unsigned int with printf
-* How to use the while loop
-* How to use variables with the while loop
-* How to print variables using printf
+* How to print the values of variables of type `char`, `int`, `unsigned int` with `printf`
+* How to use th while` loop
+* How to use variables with the `while` loop
+* How to print variables using `printf`
 * The ASCII character set
-* The purpose of the gcc flags -m32 and -m64
+* The purpose of the gcc flags `-m32` and `-m64`
 
 ## Tasks :
 
