@@ -12,18 +12,16 @@ void print_number(int n)
 {
 	unsigned int num = n;
 
-	/*first check if its negative*/
 	if (num < 0)
 	{
 		putchar('-');
-		num = -num;
+		putchar(num + '0');
 	}
 
-	/*print the first few digits*/
-	if ((num / 10) > 0)
-		print_number(num / 10);
+	else if (num == 0)
+		putchar(0);
 
-	/*print the last digit*/
-	putchar((num % 10) + 48);
+	else 
+		putchar(num + '0');
 }
 
