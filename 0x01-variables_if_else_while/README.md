@@ -104,4 +104,3 @@ In this project. I learned about the following:
     * Combinations of numbers are separated by `,`, followed by a space.
     * Combinations of numbers are printed in ascending order.
 ***
-This was quite an interesting tour!!
