@@ -1,13 +1,21 @@
 # C - Variables, if, else, while
-
+***
 In this project. I learned about the following:
-* Nested loops and how to use them
-* Function and how to use functions
-* The difference between a declaration and a definition of a function
-* Prototype
-* Scope of variables
-* The gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89
-* Header files and how to to use them with `#include`
+* Arithmetic operators and how to use them
+* Logical operators (sometimes called boolean operators) and how to use them
+* Relational operators and how to use them
+* Values considered TRUE and FALSE in C
+* Boolean operators and how to use them
+* How to use the if, if ... else statements
+* How to use comments
+* How to declare variables of types char, int, unsigned int
+* How to assign values to variables
+* How to print the values of variables of type char, int, unsigned int with printf
+* How to use the while loop
+* How to use variables with the while loop
+* How to print variables using printf
+* The ASCII character set
+* The purpose of the gcc flags -m32 and -m64
 
 ## Tasks :
 
