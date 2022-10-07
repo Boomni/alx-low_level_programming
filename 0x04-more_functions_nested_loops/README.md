@@ -97,3 +97,5 @@ _**11. The problem of distinguishing prime numbers from composite numbers and of
    * You are not allowed to use arrays or pointers
    * You are not allowed to hard-code special values
 ***
+* [main.h](./main.h): Contains all my function prototypes
+* [_putchar.c](./_putchar.c): Writes to standard input and output
