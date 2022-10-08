@@ -1,45 +1,45 @@
 # C - More pointers, arrays and strings
-
-What are pointers and how to use them
-What are arrays and how to use them
-What are the differences between pointers and arrays
-How to use strings and how to manipulate them
-Scope of variables
+***
+Doing these task I learned about:
+* Pointers and how to use them
+* Arrays and how to use them
+* The differences between pointers and arrays
+* How to use strings and how to manipulate them
+* Scope of variables
 
 ## Tasks
-0. strcat
-Write a function that concatenates two strings.
-Prototype: char *_strcat(char *dest, char *src);
-This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte
-Returns a pointer to the resulting string dest
-FYI: The standard library provides a similar function: strcat. Run man strcat to learn more.
-File: 0-strcat.c
+___
+_**0. strcat**_
+* Write a function that concatenates two strings.
+   * Prototype: `char *_strcat(char *dest, char *src);`
+   * This function appends the `src` string to the `dest` string, overwriting the terminating null byte `(\0)` at the end of `dest`, and then adds a terminating null byte
+   * Returns a pointer to the resulting string `dest`
+   * FYI: The standard library provides a similar function: `strcat`. Run `man strcat` to learn more.
+     * Solution file: [0-strcat.c](./0-strcat.c)
     
-1. strncat
-Write a function that concatenates two strings.
-Prototype: char *_strncat(char *dest, char *src, int n);
-The _strncat function is similar to the _strcat function, except that
-it will use at most n bytes from src; and
-src does not need to be null-terminated if it contains n or more bytes
-Return a pointer to the resulting string dest
-FYI: The standard library provides a similar function: strncat. Run man strncat to learn more.
-File: 1-strncat.c
+**_1. strncat_**
+* Write a function that concatenates two strings.
+   * Prototype: `char *_strncat(char *dest, char *src, int n);`
+   * The `_strncat` function is similar to the `_strcat` function, except that it will use at most `n` bytes from `src`; and `src` does not need to be null-terminated if it contains `n` or more bytes
+   * Return a pointer to the resulting string `dest`
+   * FYI: The standard library provides a similar function: `strncat`. Run `man strncat` to learn more.
+     * Solution file: [1-strncat.c](./1-strncat.c)
     
-2. strncpy
-Write a function that copies a string.
-Prototype: char *_strncpy(char *dest, char *src, int n);
-Your function should work exactly like strncpy
-FYI: The standard library provides a similar function: strncpy. Run man strncpy to learn more.
-File: 2-strncpy.c
+**_2. strncpy_**
+* Write a function that copies a string.
+  * Prototype: `char *_strncpy(char *dest, char *src, int n);`
+  * Your function should work exactly like `strncpy`
+  * FYI: The standard library provides a similar function: `strncpy`. Run `man strncpy` to learn more.
+    * Solution file: [2-strncpy.c](./2-strncpy.c)
     
-3. strcmp
+_**3. strcmp**_
 Write a function that compares two strings.
 Prototype: int _strcmp(char *s1, char *s2);
 Your function should work exactly like strcmp
 FYI: The standard library provides a similar function: strcmp. Run man strcmp to learn more.
 File: 3-strcmp.c
     
-4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy
+**_4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy_**
 Write a function that reverses the content of an array of integers.
 Prototype: void reverse_array(int *a, int n);
 Where n is the number of elements of the array
