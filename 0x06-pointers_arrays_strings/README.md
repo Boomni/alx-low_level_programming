@@ -33,42 +33,42 @@ _**0. strcat**_
     * Solution file: [2-strncpy.c](./2-strncpy.c)
     
 _**3. strcmp**_
-Write a function that compares two strings.
-Prototype: int _strcmp(char *s1, char *s2);
-Your function should work exactly like strcmp
-FYI: The standard library provides a similar function: strcmp. Run man strcmp to learn more.
-File: 3-strcmp.c
+* Write a function that compares two strings.
+  * Prototype: `int _strcmp(char *s1, char *s2);`
+  * Your function should work exactly like `strcmp`
+  * FYI: The standard library provides a similar function: `strcmp`. Run `man strcmp` to learn more.
+    * File: [3-strcmp.c](./3-strcmp.c)
     
 **_4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy_**
-Write a function that reverses the content of an array of integers.
-Prototype: void reverse_array(int *a, int n);
-Where n is the number of elements of the array
-File: 4-rev_array.c
+* Write a function that reverses the content of an array of integers.
+  * Prototype: `void reverse_array(int *a, int n);`
+  * Where `n` is the number of elements of the array
+    * Solution file: [4-rev_array.c](./4-rev_array.c)
     
-5. Always look up
-Write a function that changes all lowercase letters of a string to uppercase.
-Prototype: char *string_toupper(char *);
-File: 5-string_toupper.c
+**_5. Always look up_**
+* Write a function that changes all lowercase letters of a string to uppercase.
+  * Prototype: `char *string_toupper(char *);`
+    * File: [5-string_toupper.c](./5-string_toupper.c)
     
-6. Expect the best. Prepare for the worst. Capitalize on what comes
-Write a function that capitalizes all words of a string.
-Prototype: char *cap_string(char *);
-Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
-File: 6-cap_string.c
+**_6. Expect the best. Prepare for the worst. Capitalize on what comes_**
+* Write a function that capitalizes all words of a string.
+  * Prototype: `char *cap_string(char *);`
+  * Separators of words: space, tabulation, new line, `,`, `;`, `.`, `!`, `?`, `"`, `(`, `)`, `{`, and `}`
+    * Solution file: [6-cap_string.c](./6-cap_string.c)
     
-7. Mozart composed his music not for the elite, but for everybody
-Write a function that encodes a string into 1337.
-Letters a and A should be replaced by 4
-Letters e and E should be replaced by 3
-Letters o and O should be replaced by 0
-Letters t and T should be replaced by 7
-Letters l and L should be replaced by 1
-Prototype: char *leet(char *);
-You can only use one if in your code
-You can only use two loops in your code
-You are not allowed to use switch
-You are not allowed to use any ternary operation
-File: 100-rot13.c
+_**7. Mozart composed his music not for the elite, but for everybody**_
+* Write a function that encodes a string into `1337`.
+  * Letters `a` and `A` should be replaced by `4`
+  * Letters `e` and `E` should be replaced by `3`
+  * Letters `o` and `O` should be replaced by `0`
+  * Letters `t` and `T` should be replaced by `7`
+  * Letters `l` and `L` should be replaced by `1`
+  * Prototype: `char *leet(char *);`
+  * You can only use one `if` in your code
+  * You can only use two loops in your code
+  * You are not allowed to use `switch`
+  * You are not allowed to use any ternary operation
+    * Solution file: [100-rot13.c](./100-rot13.c)
     
 9. Numbers have life; they're not just symbols on paper
 Write a function that prints an integer.
