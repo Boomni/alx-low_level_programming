@@ -89,42 +89,40 @@ _**7. Mozart composed his music not for the elite, but for everybody**_
     * Solution file: [101-print_number.c](./101-print_number.c)
      
 **_10. A dream doesn't become reality through magic; it takes sweat, determination and hard work_**
-* Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
-  * You are not allowed to use the variable a in your new line of code
-  * You are not allowed to modify the variable p
+* Add one line to [this code](https://github.com/holbertonschool/make_magic_happen/blob/master/magic.c), so that the program prints `a[2] = 98`, followed by a new line.
+  * You are not allowed to use the variable `a` in your new line of code
+  * You are not allowed to modify the variable `p`
   * You can only write one statement
-  * You are not allowed to use ,
+  * You are not allowed to use `,`
   * You are not allowed to code anything else than the line of expected line of code at the expected line
-  * Your code should be written at line 19, before the ;
-  * Do not remove anything from the initial code (not even the comments)
-and don’t change anything but the line of code you are adding (don’t change the spaces to tabs!)
+  * Your code should be written at line `19`, before the `;`
+  * Do not remove anything from the initial code (not even the comments) and don’t change anything but the line of code you are adding (don’t change the spaces to tabs!)
   * You are allowed to use the standard library
     * Solution file: [102-magic.c](./102-magic.c)
     
-11. It is the addition of strangeness to beauty that constitutes the romantic character in art
-Write a function that adds two numbers.
-Prototype: char *infinite_add(char *n1, char *n2, char *r, int size_r);
-Where n1 and n2 are the two numbers
-r is the buffer that the function will use to store the result
-size_r is the buffer size
-The function returns a pointer to the result
-You can assume that you will always get positive numbers, or 0
-You can assume that there will be only digits in the strings n1 and n2
-n1 and n2 will never be empty
-If the result can not be stored in r the function must return 0
-File: 103-infinite_add.c
+_**11. It is the addition of strangeness to beauty that constitutes the romantic character in art**_
+* Write a function that adds two numbers.
+  * Prototype: `char *infinite_add(char *n1, char *n2, char *r, int size_r);`
+  * Where `n1` and `n2` are the two numbers
+  * `r` is the buffer that the function will use to store the result
+  * `size_r` is the buffer size
+  * The function returns a pointer to the result
+  * You can assume that you will always get positive numbers, or `0`
+  * You can assume that there will be only digits in the strings `n1` and `n2`
+  * `n1` and `n2` will never be empty
+  * If the result can not be stored in `r` the function must return `0`
+    * Solution file: [103-infinite_add.c](./103-infinite_add.c)
      
-12. Noise is a buffer, more effective than cubicles or booth walls
-Write a function that prints a buffer.
-Prototype: void print_buffer(char *b, int size);
-The function must print the content of size bytes of the buffer pointed by b
-The output should print 10 bytes per line
-Each line starts with the position of the first byte of the line in hexadecimal (8 chars), starting with 0
-Each line shows the hexadecimal content (2 chars) of the buffer, 2 bytes at a time, separated by a space
-Each line shows the content of the buffer. If the byte is a printable character, print the letter, if not, print .
-Each line ends with a new line \n
-If size is 0 or less, the output should be a new line only \n
-You are allowed to use the standard library
-The output should look like the following example, and formatted exactly the same way:
-File: 104-print_buffer.c
+_**12. Noise is a buffer, more effective than cubicles or booth walls**_
+* Write a function that prints a buffer.
+  * Prototype: `void print_buffer(char *b, int size);`
+  * The function must print the content of size bytes of the buffer pointed by `b`
+  * The output should print `10` bytes per line
+  * Each line starts with the position of the first byte of the line in hexadecimal (8 chars), starting with `0`
+  * Each line shows the hexadecimal content (2 chars) of the buffer, 2 bytes at a time, separated by a space
+  * Each line shows the content of the buffer. If the byte is a printable character, print the letter, if not, print `.`
+  * Each line ends with a new line `\n`
+  * If `size` is 0 or less, the output should be a new line only `\n`
+  * You are allowed to use the standard library
+    * Solution file: [104-print_buffer.c](./104-print_buffer.c)
      
