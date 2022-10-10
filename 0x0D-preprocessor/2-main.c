@@ -2,8 +2,8 @@
 
 /**
  * main - Starting point
- * 
- * Return: 0
+ * Description: prints filename
+ * Return: Always 0
  */
 int main(void)
 {
