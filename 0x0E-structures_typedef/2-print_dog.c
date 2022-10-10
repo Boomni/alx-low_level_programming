@@ -1,6 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
-#inxlude <stdlib.h>
+#include <stdlib.h>
 
 /**
  * print_dog - called from main
