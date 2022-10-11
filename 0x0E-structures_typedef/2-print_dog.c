@@ -2,13 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_dog - print dog
- *
- * @d: pointer to struct dog
- *
- * Return: nothing
- */
-
+* print_dog - print dog
+* @d: pointer to struct dog
+* Return: nothing
+*/
 void print_dog(struct dog *d)
 {
 	if (d != NULL)
