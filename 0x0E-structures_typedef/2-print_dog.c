@@ -7,7 +7,7 @@
  * @d: pointer to struct dog
  *
  * Return: nothing
-*/
+ */
 
 void print_dog(struct dog *d)
 {
@@ -20,3 +20,4 @@ void print_dog(struct dog *d)
 		d->owner == NULL ? printf("(nil)\n") : printf("%s\n", d->owner);
 	}
 }
+
