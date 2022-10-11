@@ -18,8 +18,7 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 
 /**
- * dog_t - A new type describing a dog.
- * @d: struct passed
+ * dog_t - A new type describing struct dog
  */
 typedef struct dog dog_t;
 
