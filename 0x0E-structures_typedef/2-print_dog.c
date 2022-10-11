@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_dog - called from main
- * Description: print dog
+ * print_dog - prints dog
  * @d: pointer to struct dog
 */
 void print_dog(struct dog *d)
