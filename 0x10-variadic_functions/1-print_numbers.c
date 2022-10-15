@@ -1,11 +1,11 @@
 #include "variadic_functions.h"
 
 /**
- * print-numbers -  prints numbers, followed by a new line
- * @seperator - string to be printed between numbers
+ * print_numbers -  called from main
+ * Description: prints numbers, followed by a new line
+ * @separator: string to be printed between numbers
  * @n: number of integers passed to the function
  * Return: nothing
- *
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
@@ -13,6 +13,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 
 	va_list args;
+
 	va_start(args, n);
 
 	for (i = 0; i < n; i++)
