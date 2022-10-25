@@ -3,9 +3,10 @@
 /**
  * add_node - adds a new node at the beginning of a list_t list.
  *
- * @h: pointer to head first node
+ * @str: string to be added
+ * @head: pointer passed
  *
- * Return: Number of nodes
+ * Return: 
 */
 
 list_t *add_node(list_t **head, const char *str)
