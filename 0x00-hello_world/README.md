@@ -35,5 +35,5 @@ I worked on some tasks and created the following files:
 |-c|Stops the compilation process before linking stage|
 |-E|Terminate compilation after processing|
 |-o filename|Writes output to a specified file|
-|-s|Stops compilation process after generating assembly code|
-
+|-S|Stops compilation process after generating assembly code|
+|-masm=intel|Creates an intel syntax of assembly code of the C file|
