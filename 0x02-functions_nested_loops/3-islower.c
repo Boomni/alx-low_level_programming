@@ -3,20 +3,15 @@
 #include "main.h"
 
 /**
- * _islower - Entry point after going through main
- * @c: the integer value it receives
- * Description: Make the alphabet 10 times
- * Return: 1 if true, 0 if false
+ * _islower - checks for lowercase character
+ *
+ * @c: value passed
+ *
+ * Return: 1 if lowercase, 0 if not
  */
 int _islower(int c)
 {
-	int a;
-
-
-	for (a = 'a'; a <= 'z'; a++)
-	{
-		if (a == c)
-			return (1);
-	}
+	if (c >= 'a' && c <= 'z')
+		return (1);
 	return (0);
 }

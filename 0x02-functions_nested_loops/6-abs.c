@@ -3,10 +3,11 @@
 #include "main.h"
 
 /**
- * _abs - Entry point after going through main
- * @n: the integer value it receives
- * Description: Prints the absolute value of an integer
- * Return: int
+ * _abs - Prints the absolute value of an integer
+ *
+ * @n: integer passed
+ *
+ * Return: absolute value
  */
 int _abs(int n)
 {

@@ -3,9 +3,10 @@
 #include "main.h"
 
 /**
- * _isalpha - Entry point after going through main
- * @c: the integer value it receives
- * Description: checks for alphabetetic character
+ * _isalpha - checks for alphabetic character
+ *
+ * @c: value passed
+ *
  * Return: 1 if true, 0 if false
  */
 int _isalpha(int c)
