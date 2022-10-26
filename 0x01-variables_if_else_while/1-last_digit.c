@@ -8,19 +8,19 @@
  */
 int main(void)
 {
-	int n, z;
+	int n, last;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-/* to get the last digit of a number, we find the module of that number */
-	z = n % 10;
 
-	if (z > 5)
-		printf("Last digit of %i is %i and is greater than 5\n", n, z);
-	else if (z == 0)
-		printf("Last digit of %i is %i and is 0\n", n, z);
-	else if (z < 6 && z != 0)
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, z);
+	last = n % 10;
+
+	if (last > 5)
+		printf("Last digit of %i is %i and is greater than 5\n", n, last);
+	else if (last == 0)
+		printf("Last digit of %i is %i and is 0\n", n, last);
+	else if (last < 6 && last != 0)
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last);
 	return (0);
 }
 

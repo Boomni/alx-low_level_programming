@@ -4,10 +4,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Start Point
- * Description: Prints all lowercase alphabet in reverse.
+ * main - Prints all lowercase alphabet in reverse.
  * Starting from 0, followed by a new line.
- * Function allowed: only putchar
+ *
  * Return: Always 0.
  */
 int main(void)

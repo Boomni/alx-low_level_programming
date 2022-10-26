@@ -5,18 +5,18 @@
 #include <stdlib.h>
 
 /**
- * main - Start Point
- * Description: Prints all single digit numbers of base 10
+ * main - Prints all single digit numbers of base 10
  * Starting from 0, followed by a new line.
+ *
  * Return: Always 0.
  */
 int main(void)
 {
-	int x;
+	int numbers;
 
-	for (x = 0; x < 10; x++)
+	for (numbers = 0; numbers < 10; numbers++)
 	{
-		printf("%i", x);
+		printf("%i", numbers);
 	}
 	printf("\n");
 	return (0);

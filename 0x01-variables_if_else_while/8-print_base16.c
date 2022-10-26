@@ -5,21 +5,22 @@
 #include <stdlib.h>
 
 /**
- * main - Start Point
- * Description: Prints all single digit numbers of base 16
+ * main - Prints all single digit numbers of base 16
  * Starting from 0, followed by a new line.
- * Function allowed: only putchar
+ *
  * Return: Always 0.
  */
 int main(void)
 {
 	int num;
-	char letters;
 
-	for (num = 0; num < 10; num++)
-		putchar(num + '0');
-	for (letters = 'a'; letters < 'g'; letters++)
-		putchar(letters);
+	for (num = 0; num <= 15; num++)
+	{
+		if (num < 10)
+			putchar(num + '0');
+		else if (num >= 10)
+			putchar(num - 10 + 'a');
+	}
 	putchar('\n');
 	return (0);
 }

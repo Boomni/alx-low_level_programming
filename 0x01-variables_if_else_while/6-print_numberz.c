@@ -5,10 +5,9 @@
 #include <stdlib.h>
 
 /**
- * main - Start Point
- * Description: Prints all single digit numbers of base 10
+ * main - Prints all single digit numbers of base 10
  * Starting from 0, followed by a new line.
- * Function allowed: putchar
+ *
  * Return: Always 0.
  */
 int main(void)
