@@ -1,17 +1,20 @@
 #include "main.h"
-#include <string.h>
 
 /**
- * _strlen - Entry point after main
- * Description: Prints length of a string
- * Author: Jonathan Boomni
+ * _strlen - returns length of a string
+ * 
  * @s: character string passed
- * Return: String lenght
+ *
+ * Return: String length
  */
 int _strlen(char *s)
 {
-	int length = strlen(s);
+	unsigned long int len = 0;
 
-	return (length);
+	while (s[len] != '\0')
+	{
+		len++;
+	}
+	return (len);
 }
 

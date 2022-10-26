@@ -2,21 +2,20 @@
 #include <stdio.h>
 
 /**
- * _puts - Entry point after main
- * Description: Prints a string
- * followed by a new line to stdout
- * Author: Jonathan Boomni
+ * _puts - prints a string, followed by a new line to stdout
+ * 
  * @str: character string passed
+ *
  * Return: 0
  */
 void _puts(char *str)
 {
-	int x = 0;
+	unsigned long int len = 0;
 
-	while (str[x])
+	while (str[len] != '\0')
 	{
-		putchar(str[x]);
-		x++;
+		putchar(str[len]);
+		len++;
 	}
 	putchar('\n');
 }

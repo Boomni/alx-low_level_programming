@@ -2,23 +2,22 @@
 #include <stdio.h>
 
 /**
- * print_rev - Entry point after main
- * Description: Prints a string in reverse
- * followed by a new line
- * Author: Jonathan Boomni
+ * print_rev - prints a string in reverse, followed by a new line
+ *
  * @s: character string passed
+ *
  * Return: 0
  */
 void print_rev(char *s)
 {
-	int x = 0;
+	unsigned long int len = 0;
 
-	while (s[x])
-		x++;
-	while (x--)
+	while (s[len] != '\0')
+		len++;
+	while (len--)
 	{
-		putchar(s[x]);
+		_putchar(s[len]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 

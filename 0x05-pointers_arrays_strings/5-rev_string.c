@@ -1,26 +1,25 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
 
 /**
- * rev_string - Entry point after main
- * Description: Reverses a string
- * Author: Jonathan Boomni
+ * rev_string - Reverses a string
+ * 
  * @s: character string passed
+ *
  * Return: 0
  */
 void rev_string(char *s)
 {
-	char *a = s;
+	unsigned long int len, end, begin = 0;
+	char r[30];
 
-	while (*(a + 1) != '\0')
-		a++;
+	while (s[len] != '\0')
+		len++;
+	end = len - 1;
 
-	while (a > s)
+	for (begin = 0; begin < len; begin++)
 	{
-		char tmp = *a;
-		*a-- = *s;
-		*s++ = tmp;
+		r[begin] = s[end];
+		end--;
 	}
+	r[begin] = '\0';
 }
