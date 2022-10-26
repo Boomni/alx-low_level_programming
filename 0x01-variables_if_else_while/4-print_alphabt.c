@@ -5,8 +5,8 @@
 #include <stdlib.h>
 
 /**
- * main - Prints the alphabet in lowercase.
- * Description: Prints  alphabet in lowcase except q and e
+ * main - Prints the alphabet in lowercase except q and e
+ *
  * Return: Always 0.
  */
 int main(void)
