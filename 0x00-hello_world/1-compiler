@@ -1,2 +1,4 @@
+# Script that compiles a C file but does not link
+
 #!/bin/bash
 gcc -c $CFILE 

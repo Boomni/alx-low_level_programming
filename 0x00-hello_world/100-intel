@@ -1,2 +1,6 @@
+# Script that generates the assembly code
+# (Intel syntax) of a C code
+# and save it in an output file
+
 #!/bin/bash
-gcc -S -masm=intel $CFILE 
+gcc -S -masm=intel $CFILE
