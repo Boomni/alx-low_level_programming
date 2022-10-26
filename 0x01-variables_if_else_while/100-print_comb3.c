@@ -1,13 +1,12 @@
-
-/* File: 8.c */
 /* Auth: Jonathan Boomni */
+
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
  * main - print single digit numbers starting from 0
  *
- * Return: returns zero at the end
+ * Return: 0
  */
 int main(void)
 {

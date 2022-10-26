@@ -1,15 +1,12 @@
-
-/* File: 8.c */
 /* Auth: Jonathan Boomni */
 
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
- * main - Start Point
- * Description: Prints all combination of single digits
+ * main - Prints all combination of single digits
  * Starting from 0, followed by a new line.
- * Function allowed: only putchar
+ *
  * Return: Always 0.
  */
 int main(void)

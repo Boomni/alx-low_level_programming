@@ -1,4 +1,3 @@
-
 /* Auth: Jonathan Boomni */
 
 #include <stdio.h>
@@ -7,24 +6,24 @@
 /**
  * main - print single digit numbers starting from 0
  *
- * Return: returns zero at the end
+ * Return: 0
  */
 int main(void)
 {
-	int i, j;
+	int a, b;
 
-	for (i = 0; i < 100; i++)
+	for (a = 0; a < 100; a++)
 	{
-		for (j = 0; j < 100; j++)
+		for (b = 0; b < 100; b++)
 		{
-			if (i < j)
+			if (a < b)
 			{
-				putchar(i / 10 + 48);
-				putchar(i % 10 + 48);
+				putchar(a / 10 + 48);
+				putchar(a % 10 + 48);
 				putchar(32);
-				putchar(j / 10 + 48);
-				putchar(j % 10 + 48);
-				if (i < 98)
+				putchar(b / 10 + 48);
+				putchar(b % 10 + 48);
+				if (a < 98)
 				{
 					putchar(44);
 					putchar(32);
