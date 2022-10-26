@@ -1,4 +1,4 @@
-#include "lists.h"
+#include "../lists.h"
 
 /**
  * main - check the code
@@ -8,7 +8,6 @@
 int main(void)
 {
 	listint_t *head;
-	listint_t *node;
 
 	head = NULL;
 	add_nodeint_end(&head, 0);
@@ -20,8 +19,8 @@ int main(void)
 	add_nodeint_end(&head, 402);
 	add_nodeint_end(&head, 1024);
 	print_listint(head);
-	node = get_nodeint_at_index(head, 5);
-	printf("%d\n", node->n);
+	printf("-----------------\n");
+	insert_nodeint_at_index(&head, 5, 4096);
 	print_listint(head);
 	free_listint2(&head);
 	return (0);
