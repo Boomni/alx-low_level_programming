@@ -16,12 +16,15 @@ unsigned int binary_to_uint(const char *b)
 	int val = 1;
 	int i;
 
+	for (len = 0; b[len]; len++)
+	{
+		if (b[len] != '0' && b[len] != '1')
+			return (0);
+	}
 	/* iterate through the string backwards starting */
 	/* from the element before the null byte to the first element */
 	for (i = (len - 1); i >= 0; i--)
 	{
-		if ((b[i] != '0') && (b[i] != '1'))
-			return (0);
 		if (b[i] == '1')
 		{
 			dec += val;
