@@ -11,26 +11,24 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int len = strlen(b);
-	int dec = 0;
-	int val = 1;
-	int i;
+	unsigned int total, power;
+	int len;
+
+	if (b == NULL)
+		return (0);
 
 	for (len = 0; b[len]; len++)
 	{
 		if (b[len] != '0' && b[len] != '1')
 			return (0);
 	}
-	/* iterate through the string backwards starting */
-	/* from the element before the null byte to the first element */
-	for (i = (len - 1); i >= 0; i--)
+
+	for (power = 1, total = 0, len--; len >= 0; len--, power *= 2)
 	{
-		if (b[i] == '1')
-		{
-			dec += val;
-		}
-		val *= 2;
+		if (b[len] == '1')
+			total += power;
 	}
-	return (dec);
+
+	return (total);
 }
 
