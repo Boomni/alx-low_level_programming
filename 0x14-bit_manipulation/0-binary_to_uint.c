@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * binary_to_unit - converts a binary number to an unsigned int
+ * binary_to_uint - converts a binary number to an unsigned int
  *
  * @b: pointing to a string of 0 and 1 chars
  *
@@ -16,7 +16,8 @@ unsigned int binary_to_uint(const char *b)
 	int val = 1;
 	int i;
 
-	/* iterate through the string backwards starting from the data before the null byte to the first element */
+	/* iterate through the string backwards starting */
+	/* from the element before the null byte to the first element */
 	for (i = (len - 1); i >= 0; i--)
 	{
 		if (b[i] == '1')
