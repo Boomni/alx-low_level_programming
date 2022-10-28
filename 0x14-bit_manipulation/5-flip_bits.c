@@ -16,8 +16,8 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 
 	while (toggle > 0)
 	{
-		count++;
-		toggle &= (toggle - 1);
+		count += (toggle & 1);
+		toggle >>= 1;
 	}
 	return (count);
 }
