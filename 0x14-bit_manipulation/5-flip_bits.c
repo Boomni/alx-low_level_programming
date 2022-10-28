@@ -11,13 +11,13 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int toggle = n ^ m;
+	unsigned long int toggle = n ^ m;
 	int count = 0;
 
 	while (toggle > 0)
 	{
-		count += (toggle & 1);
-		toggle >>= 1;
+		count++;
+		toggle &= (toggle - 1);
 	}
 	return (count);
 }
