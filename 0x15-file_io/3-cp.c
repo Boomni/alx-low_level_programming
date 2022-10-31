@@ -6,7 +6,7 @@
 /**
  * __exit - prints error messages and exits with exit number
  *
- * @error: either the exit number or file descriptor
+ * @error: exit number
  * @str: name of either file_in or file_out
  * @fd: file descriptor
  *
