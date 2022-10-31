@@ -10,14 +10,16 @@
  */
 int main(int argc, char **argv)
 {
-	int input_fd, output_fd, rstatus, ostatus, wstatus;
+	ssize_t input_fd, output_fd, rstatus, ostatus, wstatus;
 	char buf[1024];
+
+	mode_t mode = S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH;
 
 	/* if argument count is not 3 return an error */
 	if (argc != 3)
 		dprintf(S_E, "Usage: cp file_from file_to\n"), exit(97);
 
-	/* set input file descripor */
+	/* set input file descriptor */
 	input_fd = open(argv[1], O_RDONLY);
 	if (input_fd == -1)
 	{
@@ -26,7 +28,7 @@ int main(int argc, char **argv)
 	}
 
 	/* set output file descriptor v*/
-	output_fd = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+	output_fd = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, mode);
 	if (output_fd == -1)
 		dprintf(S_E, "Error: Can't write to %s\n", argv[2]), exit(99);
 
