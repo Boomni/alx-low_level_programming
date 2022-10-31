@@ -14,13 +14,13 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	/* check if filename is present */
 	if (filename == NULL)
-		return (0);
+		return (-1);
 
 	/* open file and redirect the return value of file into fd */
 	file = open(filename, O_CREAT | O_WRONLY | O_APPEND, S_IRUSR | S_IWUSR);
 	/* check if open was successful */
 	if (file == -1)
-		return (0);
+		return (-1);
 
 	if (text_content) /*write content to file if its not NULL*/
 	{
@@ -35,6 +35,6 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	close(file);
 
-	return (0);
+	return (1);
 }
 
