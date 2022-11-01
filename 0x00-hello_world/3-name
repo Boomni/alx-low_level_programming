@@ -1,5 +1,2 @@
-# script that compiles a C file
-# and creates an executable named `cisfun`
-
 #!/bin/bash
 gcc -c $CFILE -o cisfun 
