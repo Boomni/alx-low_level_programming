@@ -28,13 +28,15 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 		return (new);
 	}
 
-	last = *head;
-	/* iterate to last node */
-	while (last->next != NULL)
-		last = last->next;
-	/* make last point to new node and new node point to the previous(last) */
-	last->next = new;
-	new->prev = last;
-
-	return (new);
+	else
+	{
+		last = *head;
+		/* iterate to last node */
+		while (last->next != NULL)
+			last = last->next;
+		/* make last point to new node and new node point to the previous(last) */
+		last->next = new;
+		new->prev = last;
+		return (new);
+	}
 }
