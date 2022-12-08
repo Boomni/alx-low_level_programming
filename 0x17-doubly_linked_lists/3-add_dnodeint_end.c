@@ -16,7 +16,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	/* allocate memory to new node */
 	new = malloc(sizeof(dlistint_t));
 
-	/* put data and make it point to null since it'll become the end of the list */
+	/* input data, since it's at end of list make it point to NULL */
 	new->n = n;
 	new->next = NULL;
 
